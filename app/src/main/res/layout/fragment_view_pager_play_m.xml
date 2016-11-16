@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ViewPagerPlayMSFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagerPlayMS"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tab_layout"
+        android:layout_marginBottom="100dp"/>
+
+</FrameLayout>
